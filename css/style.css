@@ -1,0 +1,94 @@
+/*Selector universal*/
+*{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Selector por tagname*/
+aside{
+    width: 100vw;
+    height: 100vh;
+    background-color: slategray;
+}
+
+/*Selector por clase*/
+
+.circle{
+    border: 2px solid peru;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bg-red{
+    background-color: rgba(255,0,0,.5);
+}
+
+.bg-green{
+    background-color: rgba(0,255,0,.5);
+}
+
+.bg-blue{
+    background-color: rgba(0,0,255,.5);
+}
+
+/*Selector por ID*/
+
+#main-nav{
+    padding:1rem;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px ;
+    background-color: #ccc;
+}
+
+/*Selector anidado*/
+
+#main-nav input{
+   padding: 1rem;
+   background: white;
+   box-shadow:3px 3px 3px #999;
+   border: 1px solid #ccc;
+   border-radius: .5rem; 
+}
+
+#main-nav button{
+    padding: .5rem 1rem;
+    border-radius:.5rem;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+article{
+    font-size: 30px;
+}
+
+article p{
+    font-size: .5em;
+}
+
+.text-peru{
+    color: peru;
+}
+
+.post-card .card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
